@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.rosalin",
+      "sha256_cert_fingerprints": [
+        "5F:3D:78:81:3F:9A:B9:D6:83:F9:92:E7:7C:D5:FD:EE:F0:9A:20:63:71:3A:69:C3:01:DA:5C:F6:00:C9:7D:8A",
+        "E7:1D:3D:EC:8F:8D:AC:FA:EE:E7:47:5D:40:E1:A3:8F:E0:D0:19:30:24:F0:41:46:BF:01:0B:F9:F4:18:52:B7"
+      ]
+    }
+  }
+]
