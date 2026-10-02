@@ -11,7 +11,7 @@
     * { box-sizing: border-box; }
     body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; }
     main { width: min(100%, 680px); padding: clamp(28px, 7vw, 56px); text-align: center; background: #fff; border: 1px solid #f4e5eb; border-radius: 28px; box-shadow: 0 18px 60px #63364a14; }
-    .mark { width: 76px; height: 76px; margin: 0 auto 20px; display: grid; place-items: center; border-radius: 24px; background: #e83e8c; color: white; font-size: 36px; font-weight: 800; }
+    .mark { display: block; width: 76px; height: 76px; margin: 0 auto 20px; border-radius: 20px; object-fit: cover; box-shadow: 0 4px 12px #63364a24; }
     h1 { margin: 0; font-size: clamp(2rem, 7vw, 3.2rem); }
     .en { margin: 5px 0 22px; color: #a36e83; font-weight: 600; letter-spacing: .08em; }
     p { max-width: 480px; margin: 0 auto; line-height: 1.9; color: #715c66; }
@@ -25,7 +25,7 @@
 </head>
 <body>
   <main>
-    <div class="mark" aria-hidden="true">R</div>
+    <img class="mark" src="/rosalin-shares/gym-week/rosalin-icon.jpg" alt="شعار تطبيق روزالين" width="76" height="76">
     <h1>روزالين</h1>
     <div class="en" lang="en" dir="ltr">ROSALIN</div>
     <p>رفيقتك في رحلة العناية بالصحة واللياقة. حمّلي تطبيق روزالين واكتشفي أدوات تساعدك على متابعة أهدافك اليومية.</p>
